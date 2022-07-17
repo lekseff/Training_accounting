@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  height: 100vh;
+  background-color: #144037;
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+ul li {
+  list-style: none;
+}
+
+.training {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.training__title {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+/* Форма */
+.training__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  border: 1px solid white;
+  padding: 20px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #144037;
+}
+
+#date {
+  font-size: 14px;
+  font-family: inherit;
+  height: 34px;
+  padding: 7px 12px;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+#distance {
+  font-size: 15px;
+  font-family: inherit;
+  text-align: center;
+  height: 34px;
+  border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  padding: 5px 12px;
+}
+
+input::placeholder {
+  color: rgba(126, 126, 126, 0.608);
+}
+
+
+/* Список */
+
+.training__list {
+  padding: 20px 15px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: #144037;
+}
+
+.training__list-no-items {
+  text-align: center;
+  font-weight: 500;
+}
+
+.training__list-headers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 16px;
+}
+
+.item {
+  font-size: 14px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.item:nth-child(n+2) {
+  margin-top: 15px;
+}
+
+
+/* Кнопки */
+
+.item__buttons button:nth-child(n+2) {
+  margin-left: 4px;
+}
+
+.btn {
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 400;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  box-shadow: 1px 3px 3px 0px rgb(34 60 80 / 20%);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  transition: all 0.2s ease-out;
+}
+
+.primary {
+  background-color: #7db1f6;
+}
+
+.remove {
+  background-color: #ff6c6c;
+}

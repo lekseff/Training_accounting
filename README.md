@@ -1,3 +1,8 @@
+![example workflow](https://github.com/lekseff/Training_accounting/actions/workflows/deploy.yml/badge.svg)
+
+[GitHub Pages Todo](https://lekseff.github.io/Training_accounting/)
+
+
 Учёт тренировок
 ===
 
